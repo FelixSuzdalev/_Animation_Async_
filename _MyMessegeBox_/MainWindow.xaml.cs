@@ -37,13 +37,10 @@ namespace _MyMessegeBox_
             while (x < 600)
             {
                 x++;
-
                 await Task.Delay(1);
                 Canvas.SetLeft(ButtonStop, x);
-                
                 g += 0.005;
                 ButtonStop.Opacity = g;
-                if (x == 600) 
         }
             while (x > 0)
             {
@@ -71,7 +68,6 @@ namespace _MyMessegeBox_
                 Canvas.SetTop(ButtonStop, x);
            }
         }
-        
 
         private void ButtonStop_Click(object sender, RoutedEventArgs e)
         {
